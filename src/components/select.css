@@ -1,0 +1,54 @@
+.select {
+  width: 300px;
+  border: 1px solid #000000;
+  padding: 50px 25px;
+  background-color: #232b3a;
+  border-radius: 35px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.select .search {
+  width: 80%;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  align-self: center;
+  background-color: #232b3a;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.select ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+.select ul li {
+  font-size: 20px;
+  color: #26e1d2;
+  margin-top: 10px;
+}
+.select button {
+  margin-top: 20px;
+  background-color: #232b3a;
+  border: 1px solid #26e1d2;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.select .all-selection {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.select .all-selection span {
+  cursor: pointer;
+  color: #ffffff;
+}
